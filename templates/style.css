@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.Box{
+
+	background-image: url("../static/1.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}	
+.Inner_Box{
+	max-width: 850px;
+	position:absolute;
+    left: 550px;
+    top: 300px;
+	display: block:
+	transform: translate(-50%,-50%);
+	background-color:rgb(0, 153, 77);
+	box-shadow: 015px 20px rgba(0,0,0,.2);
+	padding: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.Inner_Box h2{
+	font-size: 45px
+}
+.Inner_Box p{
+	margin: 10px;
+	font-size: 24px;
+	
